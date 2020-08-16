@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <BeerContainer header="Slainte Brewery" />
+      <BeerContainer header="Sláinte Brewery" />
       {/*<header className="App-header">
         <img src={Knot} className="App-logo" alt="logo" />
         <p>
