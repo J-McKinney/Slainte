@@ -1,0 +1,10 @@
+.wrapper {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.h1Font {
+  text-align: center;
+}
