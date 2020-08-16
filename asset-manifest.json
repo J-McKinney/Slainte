@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Slainte/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Slainte/static/js/main.17bef649.chunk.js",
+    "main.js.map": "/Slainte/static/js/main.17bef649.chunk.js.map",
+    "runtime-main.js": "/Slainte/static/js/runtime-main.90658dfa.js",
+    "runtime-main.js.map": "/Slainte/static/js/runtime-main.90658dfa.js.map",
+    "static/js/2.87e52947.chunk.js": "/Slainte/static/js/2.87e52947.chunk.js",
+    "static/js/2.87e52947.chunk.js.map": "/Slainte/static/js/2.87e52947.chunk.js.map",
+    "index.html": "/Slainte/index.html",
+    "precache-manifest.3c7a9d4eff164c64c13b2bb7b0511439.js": "/Slainte/precache-manifest.3c7a9d4eff164c64c13b2bb7b0511439.js",
+    "service-worker.js": "/Slainte/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Slainte/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.87e52947.chunk.js.LICENSE.txt": "/Slainte/static/js/2.87e52947.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Slainte/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90658dfa.js",
+    "static/js/2.87e52947.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.17bef649.chunk.js"
+  ]
+}
