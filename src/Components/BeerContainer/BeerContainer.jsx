@@ -9,13 +9,18 @@ function BeerContainer(props) {
       <div className={Style.wrapper}>
         <div className={Style.secondWrapper}>
           <div className={Style.trapezoid} />
-          <div className={Style.rectangle}>
-            <Row className={Style.firstGearRow}>
-              <img className={Style.firstGear} src={Gears2} alt="Gears2" />
-              <img className={Style.secondGear} src={Gears2} alt="Gears2" />
-              <img className={Style.thirdGear} src={Gears2} alt="Gears2" />
-            </Row>
-          </div>
+          <Row className={Style.firstRectangleRow}>
+            <div className={Style.rectangle1}>
+              <Row className={Style.firstGearRow}>
+                <img className={Style.firstGear} src={Gears2} alt="Gears2" />
+                <img className={Style.secondGear} src={Gears2} alt="Gears2" />
+                <img className={Style.thirdGear} src={Gears2} alt="Gears2" />
+              </Row>
+            </div>
+            <div className={Style.emptyRectangle1} />
+          </Row>
+
+          <div className={Style.rectangle2}></div>
         </div>
       </div>
     </>

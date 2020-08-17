@@ -15,11 +15,12 @@
   text-align: center;
   justify-content: center;
   display: flex;
+  margin-top: 300px;
 }
 
 .trapezoid {
-  margin-top: 300px;
-  margin-right: 500px;
+  margin-top: 100px;
+  margin-right: 800px;
   /* trapezoid */
   border-top: 200px solid #555;
   border-left: 75px solid transparent;
@@ -28,9 +29,12 @@
   width: 500px;
 }
 
-.rectangle {
+.firstRectangleRow {
+  margin-left: 0.05vw;
+}
+
+.rectangle1 {
   margin-left: 75px;
-  margin-bottom: 300px;
   /* rectangle */
   height: 300px;
   width: 350px;
@@ -99,4 +103,27 @@
   to {
     transform: rotate(367deg);
   }
+}
+
+.emptyRectangle1 {
+  margin-top: 230px;
+  z-index: 101;
+  border-radius: 0 0 0 50px;
+  /* rectangle */
+  height: 50px;
+  width: 550px;
+  background-color: #ffffff;
+  /* background-color: #000000; */
+}
+
+.rectangle2 {
+  margin-top: -65px;
+  margin-left: 75px;
+  border-radius: 0 0 0 50px;
+  /* rectangle */
+  height: 170px;
+  width: 900px;
+  background-color: #555;
+  /* to bottom of screen */
+  margin-bottom: 300px;
 }
