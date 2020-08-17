@@ -18,30 +18,59 @@
   margin-top: 300px;
 }
 
-.trapezoid {
+.funnelWrapper {
+  display: flexbox;
+}
+
+.topFunnelToCatchGrain {
+  /* z-index: 1001 !important; */
   margin-top: 100px;
-  margin-right: 800px;
-  border-radius: 40px 40px 0 0;
+  margin-right: 768px;
   /* trapezoid */
-  border-top: 200px solid #555;
+  border-top: 200px solid #000;
   border-left: 75px solid transparent;
-  border-right: 72px solid transparent;
+  border-right: 75px solid transparent;
   height: 0;
-  width: 500px;
+  width: 503.5px;
+}
+
+.topFunnelToCatchGrainOutline {
+  margin-top: -200px;
+  margin-left: -72.4px;
+  /* trapezoid */
+  border-top: 200px solid #fff;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  height: 0;
+  width: 498px;
+}
+
+.ovalShapeOnTopOfTopFunnel {
+  margin-top: -240px;
+  margin-bottom: 165px;
+  display: block;
+  z-index: 102 !important;
+  /* oval */
+  border: 3px solid #000;
+  height: 75px;
+  width: 503.5px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .firstRectangleRow {
   margin-left: 0.05vw;
 }
 
-.rectangle1 {
+.gearBox1 {
   border-top: 3px solid #000;
   border-left: 3px solid #000;
+  border-right: 3px solid #000;
   margin-left: 75px;
   /* rectangle */
-  height: 300px;
-  width: 350px;
-  background-color: #555;
+  height: 355px;
+  width: 353px;
+  background-color: #fff;
 }
 
 .firstGearRow,
@@ -169,28 +198,41 @@
   height: auto;
 }
 
-.emptyRectangle1 {
-  z-index: 101;
-  border-radius: 0 0 0 50px;
-  border-left: 3px solid #000;
-  border-bottom: 3px solid #000;
-  /* rectangle */
-  height: 365px;
-  width: 550px;
-  background-color: #ffffff;
-  /* background-color: #000000; */
+.bottomFunnelToCatchMilledGrain {
+  margin-left: 90px;
+  /* trapezoid */
+  border-top: 150px solid #000;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  height: 0;
+  width: 353px;
 }
 
-.rectangle2 {
-  margin-top: -65px;
-  margin-left: 75px;
-  border-radius: 0 0 0 50px;
-  border-left: 3px solid #000;
-  border-bottom: 3px solid #000;
+.bottomFunnelToCatchMilledGrainOutline {
+  margin-top: -150px;
+  margin-left: -146px;
+  /* trapezoid */
+  border-top: 150px solid #fff;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  height: 0;
+  width: 345px;
+}
+
+.innerPipetoMashingArea {
+
+  margin-left: 240px;
   /* rectangle */
-  height: 170px;
-  width: 900px;
+  height: 150px;
+  width: 53px;
   background-color: #555;
+}
+
+.outerPipeToMashingArea {
+  margin-left: 10px;
+  height: 50px;
+  width: 100px;
+  background-color: #00000000;
   /* to bottom of screen */
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
