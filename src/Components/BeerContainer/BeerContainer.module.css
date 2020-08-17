@@ -47,7 +47,7 @@
 
 .ovalShapeOnTopOfTopFunnel {
   margin-top: -240px;
-  margin-bottom: 165px;
+  margin-bottom: 140px;
   display: block;
   z-index: 102 !important;
   /* oval */
@@ -56,6 +56,14 @@
   width: 503.5px;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.grainPileUnmilled {
+  margin-top: -100px;
+  margin-bottom: -105px;
+  margin-left: -605px;
+  width: 347px;
+  height: auto;
 }
 
 .firstRectangleRow {
@@ -71,6 +79,7 @@
   height: 355px;
   width: 353px;
   background-color: #fff;
+  background-image: linear-gradient(#fecb00, #ffe168);
 }
 
 .firstGearRow,
@@ -221,7 +230,7 @@
   background-image: url("../../curvedDiv.svg");
 }
 
-.grainPile {
+.grainPileMilled {
   margin-top: -226px;
   margin-left: -350px;
   width: 347px;

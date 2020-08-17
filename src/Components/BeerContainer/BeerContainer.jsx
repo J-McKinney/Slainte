@@ -16,6 +16,17 @@ function BeerContainer(props) {
                 <div className={Style.topFunnelToCatchGrainOutline} />
               </div>
               <div className={Style.ovalShapeOnTopOfTopFunnel} />
+              <svg
+                className={Style.grainPileUnmilled}
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+              >
+                <path
+                  fill="#fecb00"
+                  fill-opacity="1"
+                  d="M0,192L30,170.7C60,149,120,107,180,101.3C240,96,300,128,360,117.3C420,107,480,53,540,69.3C600,85,660,171,720,186.7C780,203,840,149,900,117.3C960,85,1020,75,1080,85.3C1140,96,1200,128,1260,165.3C1320,203,1380,245,1410,266.7L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+                />
+              </svg>
             </div>
             {/* Milling the grain */}
             <Row className={Style.firstRectangleRow}>
@@ -80,7 +91,7 @@ function BeerContainer(props) {
                 ></div>
               </div>
               <svg
-                className={Style.grainPile}
+                className={Style.grainPileMilled}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1440 320"
               >
