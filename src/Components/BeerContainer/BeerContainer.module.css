@@ -15,19 +15,12 @@
   text-align: center;
   justify-content: center;
   display: flex;
-  /* flex-direction: column; */
-}
-
-.secondWrapper {
-  flex-direction: column;
 }
 
 .trapezoid {
   margin-top: 300px;
   margin-right: 500px;
-  text-align: center;
-  justify-content: center;
-  /*  */
+  /* trapezoid */
   border-top: 200px solid #555;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
@@ -38,14 +31,72 @@
 .rectangle {
   margin-left: 75px;
   margin-bottom: 300px;
-  /*  */
+  /* rectangle */
   height: 300px;
   width: 350px;
   background-color: #555;
 }
 
-.gears4 {
-  width: 120px;
+.firstGearRow {
+  margin-left: 10px;
+}
+
+.firstGear {
+  width: 110px;
   height: auto;
-  /* transform: rotate(0deg); */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .firstGear {
+    animation: firstGear-spin-right infinite 10s linear;
+  }
+}
+
+@keyframes firstGear-spin-right {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(365deg);
+  }
+}
+
+.secondGear {
+  width: 110px;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .secondGear {
+    animation: secondGear-spin-left reverse infinite 10s linear;
+  }
+}
+
+@keyframes secondGear-spin-left {
+  from {
+    transform: rotate(12.5deg);
+  }
+  to {
+    transform: rotate(372.5deg);
+  }
+}
+
+.thirdGear {
+  width: 110px;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .thirdGear {
+    animation: thirdGear-spin-right infinite 10s linear;
+  }
+}
+
+@keyframes thirdGear-spin-right {
+  from {
+    transform: rotate(7deg);
+  }
+  to {
+    transform: rotate(367deg);
+  }
 }

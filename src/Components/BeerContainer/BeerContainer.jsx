@@ -1,5 +1,6 @@
 import React from "react";
-import Gears4 from "../../Images/gears-467261_1280.png";
+import Gears2 from "../../Images/gears2.png";
+import Row from "react-bootstrap/Row";
 import Style from "./BeerContainer.module.css";
 
 function BeerContainer(props) {
@@ -9,7 +10,11 @@ function BeerContainer(props) {
         <div className={Style.secondWrapper}>
           <div className={Style.trapezoid} />
           <div className={Style.rectangle}>
-            <img className={Style.gears4} src={Gears4} alt="gears4" />
+            <Row className={Style.firstGearRow}>
+              <img className={Style.firstGear} src={Gears2} alt="Gears2" />
+              <img className={Style.secondGear} src={Gears2} alt="Gears2" />
+              <img className={Style.thirdGear} src={Gears2} alt="Gears2" />
+            </Row>
           </div>
         </div>
       </div>
