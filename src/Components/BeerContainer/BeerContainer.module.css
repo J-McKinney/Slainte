@@ -21,10 +21,11 @@
 .trapezoid {
   margin-top: 100px;
   margin-right: 800px;
+  border-radius: 40px 40px 0 0;
   /* trapezoid */
   border-top: 200px solid #555;
   border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+  border-right: 72px solid transparent;
   height: 0;
   width: 500px;
 }
@@ -34,6 +35,8 @@
 }
 
 .rectangle1 {
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
   margin-left: 75px;
   /* rectangle */
   height: 300px;
@@ -41,22 +44,27 @@
   background-color: #555;
 }
 
-.firstGearRow {
+.firstGearRow,
+.thirdGearRow {
+  margin-top: 5px;
   margin-left: 10px;
+  display: flex;
 }
 
-.firstGear {
+.firstGearTop,
+.firstGearBottom {
   width: 110px;
   height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .firstGear {
-    animation: firstGear-spin-right infinite 10s linear;
+  .firstGearTop,
+  .firstGearBottom {
+    animation: firstGearTop-spin-right infinite 10s linear;
   }
 }
 
-@keyframes firstGear-spin-right {
+@keyframes firstGearTop-spin-right {
   from {
     transform: rotate(5deg);
   }
@@ -65,18 +73,20 @@
   }
 }
 
-.secondGear {
+.secondGearTop,
+.secondGearBottom {
   width: 110px;
   height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .secondGear {
-    animation: secondGear-spin-left reverse infinite 10s linear;
+  .secondGearTop,
+  .secondGearBottom {
+    animation: secondGearTop-spin-left reverse infinite 10s linear;
   }
 }
 
-@keyframes secondGear-spin-left {
+@keyframes secondGearTop-spin-left {
   from {
     transform: rotate(12.5deg);
   }
@@ -85,18 +95,20 @@
   }
 }
 
-.thirdGear {
+.thirdGearTop,
+.thirdGearBottom {
   width: 110px;
   height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .thirdGear {
-    animation: thirdGear-spin-right infinite 10s linear;
+  .thirdGearTop,
+  .thirdGearBottom {
+    animation: thirdGearTop-spin-right infinite 10s linear;
   }
 }
 
-@keyframes thirdGear-spin-right {
+@keyframes thirdGearTop-spin-right {
   from {
     transform: rotate(7deg);
   }
@@ -105,12 +117,65 @@
   }
 }
 
+.secondGearRow {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.firstGearMiddle {
+  margin-left: 55px;
+  width: 110px;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .firstGearMiddle {
+    animation: firstGearMiddle-spin-right infinite 10s linear;
+  }
+}
+
+@keyframes firstGearMiddle-spin-right {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(365deg);
+  }
+}
+
+.secondGearMiddle {
+  width: 110px;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .secondGearMiddle {
+    animation: secondGearMiddle-spin-left reverse infinite 10s linear;
+  }
+}
+
+@keyframes secondGearMiddle-spin-left {
+  from {
+    transform: rotate(12.5deg);
+  }
+  to {
+    transform: rotate(372.5deg);
+  }
+}
+
+.thirdGearBottom {
+  width: 110px;
+  height: auto;
+}
+
 .emptyRectangle1 {
-  margin-top: 230px;
   z-index: 101;
   border-radius: 0 0 0 50px;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
   /* rectangle */
-  height: 50px;
+  height: 365px;
   width: 550px;
   background-color: #ffffff;
   /* background-color: #000000; */
@@ -120,6 +185,8 @@
   margin-top: -65px;
   margin-left: 75px;
   border-radius: 0 0 0 50px;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
   /* rectangle */
   height: 170px;
   width: 900px;
