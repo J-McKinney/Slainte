@@ -213,26 +213,75 @@
   margin-left: -146px;
   /* trapezoid */
   border-top: 150px solid #fff;
+  /* border-top: 150px solid transparent; */
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
   height: 0;
   width: 345px;
 }
 
-.innerPipetoMashingArea {
+.grainPile {
+  z-index: 1001 !important;
+}
 
+.innerPipetoMashingArea1 {
+  margin-left: 4px;
+  /* rectangle */
+  height: 150px;
+  width: 45px;
+  background-color: #fff;
+}
+
+.outerPipeToMashingArea1 {
   margin-left: 240px;
   /* rectangle */
   height: 150px;
   width: 53px;
-  background-color: #555;
+  background-color: #000000;
 }
 
-.outerPipeToMashingArea {
-  margin-left: 10px;
-  height: 50px;
-  width: 100px;
-  background-color: #00000000;
+.innerPipetoMashingArea2 {
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #000;
+  border-radius: 0 0 0 50px;
+  margin-left: 45px;
+  /* rectangle */
+  height: 10px;
+  width: 600px;
+  background-color: #fff;
+}
+
+.outerPipeToMashingArea2 {
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #000;
+  border-radius: 0 0 0 50px;
+  margin-left: 240px;
+  /* rectangle */
+  height: 90px;
+  width: 649px;
+  background-color: #fff;
+}
+
+.innerCornerPipetoMashingArea2 {
+  margin-top: 76px;
+  border-top: 4px solid #000;
+  border-right: 4px solid #000;
+  border-radius: 0 50px 0 0;
+  /* rectangle */
+  height: 150px;
+  width: 20px;
+  background-color: #fff;
   /* to bottom of screen */
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+}
+
+.outerCornerPipeToMashingArea2 {
+  margin-top: 6px;
+  border-top: 4px solid #000;
+  border-right: 4px solid #000;
+  border-radius: 0 50px 0 0;
+  /* rectangle */
+  height: 230px;
+  width: 80px;
+  background-color: #fff;
 }
