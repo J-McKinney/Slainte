@@ -212,15 +212,20 @@
   margin-top: -150px;
   margin-left: -146px;
   /* trapezoid */
-  border-top: 150px solid #fff;
+  border-top: 150px solid #fecb00;
   /* border-top: 150px solid transparent; */
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
   height: 0;
   width: 345px;
+  background-image: url("../../curvedDiv.svg");
 }
 
 .grainPile {
+  margin-top: -226px;
+  margin-left: -350px;
+  width: 347px;
+  height: auto;
   z-index: 1001 !important;
 }
 
@@ -229,7 +234,7 @@
   /* rectangle */
   height: 150px;
   width: 45px;
-  background-color: #fff;
+  background-color: #fecb00;
 }
 
 .outerPipeToMashingArea1 {
@@ -259,7 +264,7 @@
   /* rectangle */
   height: 90px;
   width: 649px;
-  background-color: #fff;
+  background-color: #fecb00;
 }
 
 .innerCornerPipetoMashingArea2 {
@@ -272,7 +277,7 @@
   width: 20px;
   background-color: #fff;
   /* to bottom of screen */
-  /* margin-bottom: 200px; */
+  margin-bottom: 200px;
 }
 
 .outerCornerPipeToMashingArea2 {
@@ -283,5 +288,5 @@
   /* rectangle */
   height: 230px;
   width: 80px;
-  background-color: #fff;
+  background-color: #fecb00;
 }
