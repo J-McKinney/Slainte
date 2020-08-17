@@ -1,10 +1,12 @@
 import React from "react";
 // import logo from "./logo.svg";
+import BeerContainer from "./Components/BeerContainer/BeerContainer";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <BeerContainer />
       {/*<header className="App-header">
         <img src={Knot} className="App-logo" alt="logo" />
         <p>
