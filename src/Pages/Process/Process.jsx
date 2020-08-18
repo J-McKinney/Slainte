@@ -17,7 +17,6 @@ function Process(props) {
             </Col>
             <Col>Lorem Ipsum</Col>
           </Row>
-          <div />
           <Row>
             <Col>Lorem Ipsum</Col>
             <Col>Lorem Ipsum</Col>
