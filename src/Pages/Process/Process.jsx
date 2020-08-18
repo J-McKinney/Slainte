@@ -11,11 +11,16 @@ function Process(props) {
         <Container>
           <Row>
             <Col>
-              <div className={Style.processFunnelOval} />
-              <div className={Style.processFunnelTrapezoid} />
               <div className={Style.processFunnelTrapezoidOutline} />
+              <div className={Style.processFunnelTrapezoid} />
+              <div className={Style.processFunnelOval} />
             </Col>
-            <Col></Col>
+            <Col>Lorem Ipsum</Col>
+          </Row>
+          <div />
+          <Row>
+            <Col>Lorem Ipsum</Col>
+            <Col>Lorem Ipsum</Col>
           </Row>
         </Container>
       </div>

@@ -1,21 +1,32 @@
 .wrapper {
-  text-align: center;
+  /* text-align: center;
   justify-content: center;
-  display: flex;
+  display: flex; */
+  /* wrapper */
+  margin-top: 202px;
 }
 
 .processFunnelOval {
-  margin-top: 20px;
+  z-index: 1002 !important;
+  /* position settings */
+  margin-top: -200px;
+  /* position settings */
   /* oval */
   border: 3px solid #000;
   height: 75px;
-  width: 503.5px;
+  width: 500px;
   background-color: #555;
   border-radius: 50%;
 }
 
 .processFunnelTrapezoid {
-  margin-top: 20px;
+  z-index: 1001 !important;
+  width: 494px;
+  height: auto;
+  /* position settings */
+  margin-left: 3px;
+  margin-top: -200px;
+  /* position settings */
   /* trapezoid */
   border-top: 200px solid #555;
   border-left: 75px solid transparent;
@@ -23,9 +34,13 @@
 }
 
 .processFunnelTrapezoidOutline {
-  margin-top: 20px;
+  z-index: 1000 !important;
+  width: 500px;
+  height: auto;
+  /* position settings */
+  /* position settings */
   /* trapezoid */
-  border-top: 200px solid #555;
+  border-top: 200px solid #000;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
 }
