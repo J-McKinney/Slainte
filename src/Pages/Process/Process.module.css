@@ -1,0 +1,31 @@
+.wrapper {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.processFunnelOval {
+  margin-top: 20px;
+  /* oval */
+  border: 3px solid #000;
+  height: 75px;
+  width: 503.5px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.processFunnelTrapezoid {
+  margin-top: 20px;
+  /* trapezoid */
+  border-top: 200px solid #555;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.processFunnelTrapezoidOutline {
+  margin-top: 20px;
+  /* trapezoid */
+  border-top: 200px solid #555;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}

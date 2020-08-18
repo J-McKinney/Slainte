@@ -1,12 +1,13 @@
 import React from "react";
 // import logo from "./logo.svg";
-import BeerContainer from "./Components/BeerContainer/BeerContainer";
+// import BeerContainer from "./Components/BeerContainer/BeerContainer";
+import Process from "./Pages/Process/Process";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <BeerContainer />
+      <Process />
       {/*<header className="App-header">
         <img src={Knot} className="App-logo" alt="logo" />
         <p>
