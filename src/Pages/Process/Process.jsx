@@ -1,4 +1,5 @@
 import React from "react";
+import blade from "../../Images/circularSawBlade.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,6 +17,11 @@ function Process() {
               <div className={Style.millingFunnelTrapezoid} />
               <div className={Style.millingFunnelTrapezoidOutline} />
               <div className={Style.millingSiloContainer} />
+              <img className={Style.blade1} src={blade} alt="First Blade" />
+              <img className={Style.blade2} src={blade} alt="Second Blade" />
+              <img className={Style.blade3} src={blade} alt="Third Blade" />
+              <div className={Style.milledGrainFunnelTrapezoid} />
+              <div className={Style.milledGrainFunnelTrapezoidOutline} />
             </Col>
             <Col className={Style.millingColContent}>
               <h5>
