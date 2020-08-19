@@ -4,16 +4,18 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Style from "./Process.module.css";
 
-function Process(props) {
+function Process() {
   return (
     <>
-      <div className={Style.wrapper}>
+      <div className={Style.beerProcessHeader}></div>
+      <div className={Style.millingWrapper}>
         <Container className={Style.millingContainer}>
           <Row className={Style.millingRow}>
             <Col className={Style.millingCol}>
-              <div className={Style.processFunnelOval} />
-              <div className={Style.processFunnelTrapezoid} />
-              <div className={Style.processFunnelTrapezoidOutline} />
+              <div className={Style.millingFunnelOval} />
+              <div className={Style.millingFunnelTrapezoid} />
+              <div className={Style.millingFunnelTrapezoidOutline} />
+              <div className={Style.millingSiloContainer} />
             </Col>
             <Col className={Style.millingColContent}>
               <h5>
@@ -22,7 +24,17 @@ function Process(props) {
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum
               </h5>
             </Col>
           </Row>

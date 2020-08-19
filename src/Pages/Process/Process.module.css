@@ -1,13 +1,28 @@
-.wrapper {
-  /* text-align: center;
-  justify-content: center;
-  display: flex; */
+.beerProcessHeader {
   /* wrapper */
-  margin-top: 202px;
+  margin-top: 200px;
+  /* wrapper */
+}
+
+.millingWrapper {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  /* Parallax Effect */
+  background-image: url("../../Images/wheatField.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Parallax Effect */
 }
 
 .millingContainer {
   position: relative;
+  /* wrapper */
+  margin-top: 100px;
+  /* wrapper */
 }
 
 .millingRow {
@@ -20,7 +35,7 @@
   justify-content: center;
 }
 
-.processFunnelOval {
+.millingFunnelOval {
   z-index: 1002 !important;
   position: relative;
   /* position settings */
@@ -33,7 +48,7 @@
   border-radius: 50%;
 }
 
-.processFunnelTrapezoid {
+.millingFunnelTrapezoid {
   z-index: 1001 !important;
   position: relative;
   width: 494px;
@@ -44,11 +59,11 @@
   /* position settings */
   /* trapezoid */
   border-top: 200px solid #fff;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
 }
 
-.processFunnelTrapezoidOutline {
+.millingFunnelTrapezoidOutline {
   z-index: 1000 !important;
   position: relative;
   width: 500px;
@@ -58,8 +73,23 @@
   /* position settings */
   /* trapezoid */
   border-top: 200px solid #000;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+}
+
+.millingSiloContainer {
+  z-index: 1000 !important;
+  position: relative;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+  /* position settings */
+  margin-left: 90px;
+  /* position settings */
+  /* rectangle */
+  height: 300px;
+  width: 320px;
+  background-color: #555;
 }
 
 .millingColContent {
