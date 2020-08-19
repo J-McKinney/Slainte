@@ -40,13 +40,19 @@ function Process() {
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
               </h5>
             </Col>
           </Row>
-          <Row>
-            <Col>Lorem Ipsum</Col>
-            <Col>Lorem Ipsum</Col>
+          <Row className={Style.milledGrainPipeRow}>
+            <Col className={Style.milledGrainPipeCol1}>Lorem Ipsum</Col>
+            <Col className={Style.milledGrainPipeCol2}>Lorem Ipsum</Col>
+            <Col className={Style.milledGrainPipeCol3}>Lorem Ipsum</Col>
           </Row>
         </Container>
       </div>

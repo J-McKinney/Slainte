@@ -10,7 +10,7 @@
   display: flex;
   /* Parallax Effect */
   background-image: url("../../Images/wheatField.jpg");
-  height: 1000px;
+  height: 1500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@
   margin-left: 3px;
   /* position settings */
   /* trapezoid */
-  border-top: 200px solid #fff;
+  border-top: 200px solid #797979;
   border-left: 90px solid transparent;
   border-right: 90px solid transparent;
 }
@@ -78,11 +78,11 @@
 }
 
 .millingSiloContainer {
-  background-image: url("../../Images/wheatField.jpg");
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url("../../Images/wheatField.jpg"); */
+  background-image: url("../../Images/milledGrain.PNG");
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   z-index: 1002 !important;
   position: relative;
   border-top: 3px solid #555;
@@ -105,7 +105,7 @@
   z-index: 1010 !important;
   position: relative;
   /* Blade Opacity */
-  opacity: 0.75;
+  opacity: 0.85;
   /* Blade Opacity */
   width: 300px;
   height: auto;
@@ -173,7 +173,7 @@
   margin-left: 93px;
   /* position settings */
   /* trapezoid */
-  border-top: 200px solid #fff;
+  border-top: 200px solid #ffcb01;
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
 }
