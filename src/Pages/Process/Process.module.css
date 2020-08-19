@@ -6,41 +6,65 @@
   margin-top: 202px;
 }
 
+.millingContainer {
+  position: relative;
+}
+
+.millingRow {
+  position: inherit;
+}
+
+.millingCol {
+  position: inherit;
+  text-align: center;
+  justify-content: center;
+}
+
 .processFunnelOval {
   z-index: 1002 !important;
+  position: relative;
   /* position settings */
-  margin-top: -200px;
   /* position settings */
   /* oval */
   border: 3px solid #000;
   height: 75px;
   width: 500px;
-  background-color: #555;
+  background-color: #fff;
   border-radius: 50%;
 }
 
 .processFunnelTrapezoid {
   z-index: 1001 !important;
+  position: relative;
   width: 494px;
   height: auto;
   /* position settings */
+  margin-top: -35px;
   margin-left: 3px;
-  margin-top: -200px;
   /* position settings */
   /* trapezoid */
-  border-top: 200px solid #555;
+  border-top: 200px solid #fff;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
 }
 
 .processFunnelTrapezoidOutline {
   z-index: 1000 !important;
+  position: relative;
   width: 500px;
   height: auto;
   /* position settings */
+  margin-top: -200px;
   /* position settings */
   /* trapezoid */
   border-top: 200px solid #000;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
+}
+
+.millingColContent {
+  font-family: "Uncial Antiqua", cursive;
+  position: inherit;
+  text-align: center;
+  justify-content: center;
 }

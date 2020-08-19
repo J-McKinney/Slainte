@@ -8,14 +8,23 @@ function Process(props) {
   return (
     <>
       <div className={Style.wrapper}>
-        <Container>
-          <Row>
-            <Col>
-              <div className={Style.processFunnelTrapezoidOutline} />
-              <div className={Style.processFunnelTrapezoid} />
+        <Container className={Style.millingContainer}>
+          <Row className={Style.millingRow}>
+            <Col className={Style.millingCol}>
               <div className={Style.processFunnelOval} />
+              <div className={Style.processFunnelTrapezoid} />
+              <div className={Style.processFunnelTrapezoidOutline} />
             </Col>
-            <Col>Lorem Ipsum</Col>
+            <Col className={Style.millingColContent}>
+              <h5>
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum
+              </h5>
+            </Col>
           </Row>
           <Row>
             <Col>Lorem Ipsum</Col>
