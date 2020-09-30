@@ -37,3 +37,9 @@
   height: 280px;
   width: auto;
 }
+
+.millContainer {
+  position: relative;
+  width: auto;
+  height: 600px;
+}
