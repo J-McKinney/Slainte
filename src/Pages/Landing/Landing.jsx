@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BaseGrain from "../../baseGrainContainer.svg";
+// import BaseGrain from "../../baseGrainContainer.svg";
 import Style from "./Landing.module.css";
 
 class Landing extends Component {
@@ -7,7 +7,7 @@ class Landing extends Component {
     return (
       <>
         <div className={Style.wrapper}>
-          <img src={BaseGrain} alt="base grain" />
+          {/* <img src={BaseGrain} alt="base grain" /> */}
         </div>
       </>
     );
