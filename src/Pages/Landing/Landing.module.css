@@ -1,6 +1,7 @@
 .wrapper {
   position: relative;
   background-color: burlywood;
+  margin-bottom: 100px;
 }
 
 .header {
@@ -22,6 +23,6 @@
 
 .leftPipe {
   height: 400px;
-  width: 100%;
-  margin-left: 90px;
+  width: auto;
+  margin-left: 7.73vw;
 }
