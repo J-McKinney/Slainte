@@ -1,5 +1,15 @@
 .wrapper {
   position: relative;
+}
+
+.header {
   display: flex;
-  flex: wrap;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.baseGrainContainer {
+  height: 600px;
+  width: auto;
 }
