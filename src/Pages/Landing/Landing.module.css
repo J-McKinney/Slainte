@@ -12,17 +12,28 @@
 }
 
 .baseGrainContainer {
+  position: relative;
   height: 600px;
   width: auto;
 }
 
-.funnel {
-  height: 400px;
+.upwardFunnel {
+  position: relative;
+  height: 425px;
   width: auto;
+  margin-left: -8.2vw;
 }
 
 .leftPipe {
-  height: 400px;
+  position: relative;
+  height: auto;
+  width: 100%;
+  /* margin-left: 7.73vw; */
+}
+
+.downwardFunnel {
+  position: relative;
+  margin-left: 23.71vw;
+  height: 280px;
   width: auto;
-  margin-left: 7.73vw;
 }
