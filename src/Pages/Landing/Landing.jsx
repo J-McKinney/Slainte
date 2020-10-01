@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import BaseGrain from "../../BeerMachine/baseGrainContainer.svg";
 import UpwardFunnel from "../../BeerMachine/upwardFunnel.svg";
 import LeftPipe from "../../BeerMachine/leftToRightPipe.svg";
+import RightPipe from "../../BeerMachine/rightToLeftPipe.svg";
 import DownwardFunnel from "../../BeerMachine/downwardFunnel.svg";
 import MillContainer from "../../BeerMachine/millingContainer.svg";
 import Container from "react-bootstrap/Container";
@@ -123,6 +124,15 @@ class Landing extends Component {
                   className={Style.millContainer}
                   src={MillContainer}
                   alt="leftToRight"
+                />
+              </div>
+            </Row>
+            <Row>
+              <div className="col-lg-12">
+                <img
+                  className={Style.rightPipe}
+                  src={RightPipe}
+                  alt="rightToLeft"
                 />
               </div>
             </Row>
